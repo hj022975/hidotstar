@@ -451,7 +451,7 @@ namespace hidotstar {
         strip._mode = HiDotStarMode.RGB_RGB;
         strip._matrixWidth = 0;
         strip.setBrightness(128);
-        pins.spiFrequency(1000000);
+        pins.spiFrequency(8000000);
         pins.spiFormat(8, 0);
         pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13);
         return strip;
